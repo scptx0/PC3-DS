@@ -1,0 +1,39 @@
+# Contribuciones de Daren Herrera
+
+## Sprint 1
+- 2025-06-08:
+    - **Rama feature/infraestructura-inicial**
+        - Creé la estructura principal de directorios (`iac/`, `scripts/`, `src/`), archivos vacíos (`backup_state.sh`, `restore_state.sh`, `balanceador.py`, `main.tf`). Además indiqué el esqueleto inicial del `README`.
+            - Commits:
+                - `feat(structure): (Issue #1) crear estructura inicial del proyecto` ([327d33c](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/327d33c04ca3d7e50e063e4f8a0806a810c05ad8))
+                - `docs(readme): (Issue #1) actualizar README con esqueleto inicial` ([f64c21e](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/f64c21e55283bc25fb3acad8c571e89bac82d038))
+        - En `iac/main.tf` creé tres recursos dummy que generan 3 archivos `service_*.txt`.
+            - Commits:
+                - `feat(tf): (Issue #3) agregar iac/main.tf con tres recursos null_resource dummy` ([b83e905](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/b83e9057407ce86e0c8b61cc1f87a729458cb583))
+                - `docs(tf): (Issue #3) agregar comentario explicativo de los recursos de main.tf` ([196b72f](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/196b72f9a61f7eaf5b765c9549f8361820805bc6))
+        - Pull request grupal: [#10](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/10)
+- 2025-06-09:
+    - Creé los git hooks que se usarán en el proyecto. No hubo commit de ello.
+- 2025-06-10 y 2025-06-11:
+    - **Rama docs/readme-video**
+        - Agregué documentación breve (README) de la descripción del proyecto y los scripts.
+            - Commits:
+                - `docs(readme): (Issue #9) actualizar README con avance final del sprint 1` ([7f12cfc](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/7f12cfcdef223c8383ffa0f76a7bd49f04f7e478))
+        - Hice el video correspondiente del sprint 1.
+        - Pull request grupal: [#23](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/23)
+    - Hice el merge de la rama `feature/drift-balanceador` sobre `develop`:
+        - Commits:
+            - `Merge pull request #13 de feature/drift-balanceador sobre develop` ([81b32cd](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/81b32cd01317fd66811670dced17e5e0409b8ab7))
+- 2025-06-12:
+    - **Rama docs/readme-video**
+        - Uní los videos del sprint 1 y se agregó al README
+            - Commits:
+                - `docs(video): (Issue #8) agregar url de video grupal del sprint 1` ([da18b80](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/da18b80e9d011b3f41d7ea5fea7aeb7c5c93b864))
+        -  Pull request grupal: [#23](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/23)
+    - **Rama refactor/scripts**
+        - Hice correciones en los scripts y la estructura duplicada de `balanceador.py`
+            - Commits:
+                - `refactor(py): (Issue #14) unificar estilo PEP8 en balanceador.py` ([0d4c555](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/0d4c555ddb258b48b7c1067ea14463e3949091e9))
+                - `refactor(sh): (Issue #14) correcciones de scripts del sprint 1` ([6e55bfe](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/6e55bfe679de4a06d4390cd98bab259a342ef228))
+                - `feat(structure): (Issue #1) eliminar estructura duplicada de balanceador` ([b69d7b6](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/b69d7b6c7049f777d3812a41fae12208fa2c0526))
+        - Pull request grupal: [#24](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/24)
