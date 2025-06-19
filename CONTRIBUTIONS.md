@@ -37,3 +37,12 @@
                 - `refactor(sh): (Issue #14) correcciones de scripts del sprint 1` ([6e55bfe](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/6e55bfe679de4a06d4390cd98bab259a342ef228))
                 - `feat(structure): (Issue #1) eliminar estructura duplicada de balanceador` ([b69d7b6](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/b69d7b6c7049f777d3812a41fae12208fa2c0526))
         - Pull request grupal: [#24](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/24)
+- 2025-06-13 y 2025-06-14:
+    - **Rama feat/balanceador-logica**
+        - Implementé la lógica principal de `balanceador.py`
+            - Commits:
+                - `feat(py): (Issues #15 #16 #17) agregar logica inicial de balanceador.py` ([98eea9b](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/98eea9ba08e468e4c20054529d5976459eada1d6))
+        - Pull request grupal: [#26](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/26)
+- 2025-06-16:
+    - Hice el video para el sprint 2
+    
