@@ -37,6 +37,8 @@
                 - `refactor(sh): (Issue #14) correcciones de scripts del sprint 1` ([6e55bfe](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/6e55bfe679de4a06d4390cd98bab259a342ef228))
                 - `feat(structure): (Issue #1) eliminar estructura duplicada de balanceador` ([b69d7b6](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/b69d7b6c7049f777d3812a41fae12208fa2c0526))
         - Pull request grupal: [#24](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/24)
+
+## Sprint 2
 - 2025-06-13 y 2025-06-14:
     - **Rama feat/balanceador-logica**
         - Implementé la lógica principal de `balanceador.py`
@@ -46,3 +48,16 @@
 - 2025-06-16:
     - Hice el video para el sprint 2
     
+## Sprint 3
+- 2025-06-17, 2025-06-18 y 2025-06-19
+    - Hice el merge de la rama `feature/simulate-requests` sobre `develop`
+        - Commits:
+            - `Merge pull request #34 from Grupo-9-CC3S2/feature/simulate-requests` ([b168907](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/b1689072f4e9a836619ddae99ca8a99057bafaeb))
+    - **Rama feat/health-check-balanceador**
+        - Implementé la mejora de `balanceador.py` con el health-check de los servicios activos. Además, implemente tests para el balanceador.
+            - Commits:
+                - `feat(py): (Issues #27 #28) health-check de servicios en el balanceador` ([ce65764](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/ce6576487333902a4a95e9bee7f57a19e3739a20))
+                - `test(py): agregar tests principales para el balanceador` ([be00597](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/be00597e349310f195ef328f0b1515beff9f7758))
+                - `refactor(py): unificar estilo PEP8 para health-check de balanceador` ([40d5d6f](https://github.com/Grupo-9-CC3S2/Proyecto-7/commit/40d5d6f5bc862697b6f2c34602d1be7b861372c6))
+        - Pull request grupal: [#35](https://github.com/Grupo-9-CC3S2/Proyecto-7/pull/35)
+    - Hice el video para el sprint 3
